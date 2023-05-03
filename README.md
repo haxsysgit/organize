@@ -16,7 +16,7 @@ The script supports several command line arguments that can be used to specify w
 
 ## Arguments
 
-### -m / --file-match
+#### `-m / --file-match`
 
 Accepts a path-like string and prints out a dictionary of which the key is the matching word and the values is the list of matched files.
 
