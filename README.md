@@ -20,31 +20,31 @@ The script supports several command line arguments that can be used to specify w
 
 Accepts a path-like string and prints out a dictionary of which the key is the matching word and the values is the list of matched files.
 
-### -p / --path
+#### `-p / --path`
 
 Accepts a path-like string (will be used for all as input for other argument).
 
-### -c / --create_ext_dir
+#### `-c / --create_ext_dir`
 
 Create folders in relation to the existing file extension in the path and moves the related files to the newly created folder. For example, `example.mp4` will cause an `mp4files` folder to be created.
 
-### -obr / --organize_by_relation
+#### `-obr / --organize_by_relation`
 
 Create a folder according to matching files and organize them (i.e the output from the `-match/-m`).
 
-### -obe / --organize_by_extension
+#### `-obe / --organize_by_extension`
 
 Uses the `create_ext_dir` function to make extension directories and uses the `obr` function to arrange the files by name.
 
-### -d / --delete_ext_dir
+#### `-d / --delete_ext_dir`
 
 Empty the extension directories created and deletes them.
 
-### -de / --delete_ext_dirtype
+#### `-de / --delete_ext_dirtype`
 
 Used to delete a specific extension directory, e.g., `mp4->mp4files`.
 
-### -ce / --create_ext_dirtype
+#### `-ce / --create_ext_dirtype`
 
 Used to create a specific extension directory, e.g., `html->htmlfiles`.
 
